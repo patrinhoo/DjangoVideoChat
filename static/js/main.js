@@ -301,8 +301,6 @@ function dcOnMessage(event){
     let li = document.createElement('li');
     li.appendChild(document.createTextNode(message));
     messageList.appendChild(li);
-    // messageList.insertAdjacentElement('afterbegin', li);
-    // messageList.append(li);
 }
 
 function createVideo(peerUsername){
